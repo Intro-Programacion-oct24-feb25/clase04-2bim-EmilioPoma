@@ -34,12 +34,15 @@ public class Ejemplo08 {
         switch (opcion){
             case ("1"):
                 mensaje = obtenerTablaSumar(valor1, valor2);
+                System.out.printf("%s\n", mensaje);
+                break;
             case ("2"):
                 mensaje = obtenerTablaMultiplicar (valor1, valor2);
+                System.out.printf("%s\n", mensaje);
+                break;
             
         }
         
-        System.out.printf("%s\n", mensaje);
     }
         
     public static String obtenerTablaSumar(int limite, int tabla){
