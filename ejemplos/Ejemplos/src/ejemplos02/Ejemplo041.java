@@ -10,6 +10,14 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
+    /*
+    Dentro del main hay 3 arreglos bidimensionales de tipo entero, 2 de los 3 arreglos ya tienen datos 
+    mientras que el tercero se encuentra vacio. Utilizamos un ciclo repetitivo de tipo for para darle valores al 
+    tercer arreglo, llamamos a la funcion obtenerMultiplicacion y almacenamos sus valores en el arreglo 3. 
+    Lo que hace obtenerMultiplicacion es multiplicar mediante un ciclo For los valores de los primeros 2 arreglos.
+    Lo siguientte es llamar al proceidmiento obtener Reporte tres veces teniendo como parametros cada uno 
+    de los arreglos. 
+    */
 
     public static void main(String[] args) {
         // 
