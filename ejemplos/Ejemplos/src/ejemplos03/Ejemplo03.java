@@ -33,10 +33,10 @@ public class Ejemplo03 {
     
     public static int obtenerSuma(int a, int b){
         int suma;
-        if  (a<0  ||  b<0){
-            suma = 0;
-        } else {
+        if  (a>0  &&  b>0){
             suma = a + b;
+        } else {
+            suma = 0;
         }
         return suma;
         // return a + b;
